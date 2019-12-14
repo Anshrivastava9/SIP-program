@@ -33,12 +33,65 @@
    and (min-device-width : 320px)
    and (max-device-width : 480px){  .mobileHide { display: none;}}
 </style>
+<style>
+li {
+    float: left;
+}
+<!--
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+-->
+.dropbtn {
+min-width:110px;
+    }
+
+li.nav-item cta {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #38d39f;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-align: center;
+
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+	font-weight:bolder;
+    display: block;
+    text-align: center;
+	border-style:dashed;
+	border-color: #000;
+	border-width:1px;
+}
+
+.dropdown-content a:hover
+{
+	background-color: #f1f1f1;
+	color:#6927ff;  
+}
+
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+</style>
   </head>
   <body>
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="sip.html"><img src="Logoecell.png" alt="E-CELL RGPV" height="100" ></a>
+	      <a class="navbar-brand" href="sip.html"><img src="sip-logo.png" alt="E-CELL RGPV" height="100" ></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -51,7 +104,12 @@
 	          <li class="nav-item"><a class="nav-link" href="">Estagio</a></li>
 	          <li class="nav-item"><a href="" class="nav-link">Team</a></li>
 	          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-	          <li class="nav-item cta"><a href="" class="nav-link"><span>Register</span></a></li>
+	          <li class="nav-item cta"><a href="#register" class="dropbtn">Register</a>
+				<div class="dropdown-content">
+					<a href="registerc.html">Company</a>
+					<a href="registers.html">Student</a>
+				</div>
+			  </li>
 	        </ul>
 	      </div>
 	    </div>
@@ -311,14 +369,14 @@ Imprenditore</p>
     </section>
 
 
-    <section class="ftco-section testimony-section">
+    <!--<section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
             <span class="subheading">SIP</span>
             <h2 class="mb-4">TEAM</h2>
             <!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>-->
-          </div>
+          <!--</div>
         </div>
         <div class="row ftco-animate">
           <div class="col-md-12">
@@ -397,7 +455,7 @@ Imprenditore</p>
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <section class="ftco-section ftco-partner">
     	<div class="container">
