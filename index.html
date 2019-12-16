@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loaderstyle.css">
     <link rel="stylesheet" href="css/type animation.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 
@@ -44,12 +45,36 @@
    and (min-device-width : 320px)
    and (max-device-width : 480px){  .mobileHide { display: none;}}
 </style>
+
   </head>
   <body>
+<div id="abc">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class='loader loader2'>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
+<script>
+var overlay=document.getElementById("abc");
+window.addEventListener('load',function()
+{
+overlay.style.display='none';
+});
+</script>
 
-
-    
+   
 
 <!-- <script src="vanta-master\vendor\three.r92.min.js"></script>
 <script src="vanta-master\dist\vanta.birds.min.js"></script> -->
@@ -842,8 +867,7 @@ Imprenditore</p>
   
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
+ <!--<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>-->
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
