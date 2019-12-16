@@ -9616,9 +9616,13 @@ textarea.form-control {
     color: white; }
 
 .block-6 {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  width:500px;
+  height:170px;
+  vertical-align:middle;
+  }
   .block-6 .media-body p {
-    font-size: 16px; }
+    font-size: 42px; }
 
 .block-10 .chef-img {
   height: 400px; }
