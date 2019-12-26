@@ -56,6 +56,43 @@ margin-left:30%;
 margin-top:10%;
 }
 </style>
+<style>
+
+.waves-effect {
+	height:100px;
+	width:400px;
+	color:#fff;
+	vertical-align:middle;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+#bbtn
+{
+color:#fff;
+height:100px;
+width:300px;
+background-color:#26a69a;
+padding:0px;
+border-radius:15px;
+border-width:0px;
+}
+
+#bbtn:hover{
+background-color:#2bbbad;
+}
+
+</style>
 
   </head>
   <body>
@@ -88,10 +125,10 @@ overlay.style.display='none';
 <center>
 <div id="myModal" class="modal" >
   <!-- Modal content -->
-  <div class="modal-content" style="background-image:url(images/daniel-olahs.jpg);border-radius:20px;">
-    <span class="close"><a href"#"><font color="#fff">&times;</font><a></span>
+  <div class="modal-content" style="border-radius:20px;">
+    <span class="close"><a href"#"><font color="#004">&times;</font><a></span>
 	<center>
-    <p><a href="imprenditore.html"><img src="images/popup.png" width="90%"><a href="imprenditore.html"><br><font color="#fff"><strong>CLICK TO VISIT</strong></font></a></p>
+    <p><a href="imprenditore.html"><img src="images/popup.png" width="90%"><a href="imprenditore.html"><br><font color="#004"><strong>CLICK TO VISIT</strong></font></a></p>
 	</center>
   </div>
 </div>
@@ -143,10 +180,10 @@ window.onclick = function(event) {
 	          <!-- <li class="nav-item"><a href="domain.html" class="nav-link">Domain</a></li> -->
 	          <li class="nav-item"><a class="nav-link" href="sip.html">Estagio</a></li>
 			  <li class="nav-item"><a class="nav-link" href="imprenditore.html">Imprenditore</a></li>
-	          <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
 			  <li class="nav-item"><a href="aboutecell.html" class="nav-link">About</a></li>
-	          <li class="nav-item cta"><a href="" class="nav-link"><span>Register</span></a></li>
+	          <li class="nav-item cta"><a href="#registerbox" class="nav-link"><span>Register</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -821,6 +858,35 @@ Imprenditore</p>
           </div>
         </div>
       </div>
+    </section>
+	
+    <section>
+    	<div class="container">
+    		<div id="registerbox" class="row">
+    			<div class="col-md-6 py-5">
+				<h2 class="mb-4">Register As</h2>
+    				<img src="images/undraw_podcast_q6p7.svg" class="img-fluid" alt="">
+    				<div class="heading-section ftco-animate mt-5">
+					</div>
+    			</div>
+    			<div class="col-lg-6 py-5">
+    				<div class="row">
+    					<div class="col-md-6 ftco-animate">
+    						<div class="media block-6 services border text-center" style="width:500px;">
+		            	<a href="registercompany.html" class="waves-effect"><button id="bbtn" ><font size="30">COMPANY</font></button></a>
+							</div>
+    					</div>
+						<br>
+    					<div class="col-md-8 ftco-animate">
+    						<div class="media block-6 services border text-center" style="width:500px;">
+						<a href="registerstudent.html" class="waves-effect"><button id="bbtn" ><font size="30">STUDENT</font></button></a>
+							</div>
+    					</div>
+		     
+    				</div>
+				</div>
+    		</div>
+    	</div>
     </section>
 	
     <section class="ftco-section contact-section ftco-degree-bg" id="contact">
