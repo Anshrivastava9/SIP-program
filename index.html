@@ -2,11 +2,6 @@
 <html lang="en">
   <head>
     <title>E-CELL RGPV</title>
-
-
-  
-
-
     <meta charset="utf-8">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
     <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
@@ -59,8 +54,8 @@ margin-top:10%;
 <style>
 
 .waves-effect {
-	height:100px;
-	width:400px;
+	height:90px;
+	width:100%;
 	color:#fff;
 	vertical-align:middle;
     position: relative;
@@ -80,8 +75,8 @@ margin-top:10%;
 #bbtn
 {
 color:#fff;
-height:100px;
-width:300px;
+height:80%;
+width:80%;
 background-color:#26a69a;
 padding:0px;
 border-radius:15px;
@@ -92,6 +87,12 @@ border-width:0px;
 background-color:#2bbbad;
 }
 
+#cls
+{
+text-align:right;
+margin-right:10px;
+cursor:pointer;
+}
 </style>
 
   </head>
@@ -126,7 +127,7 @@ overlay.style.display='none';
 <div id="myModal" class="modal" >
   <!-- Modal content -->
   <div class="modal-content" style="border-radius:20px;">
-    <span class="close"><a href"#"><font color="#004">&times;</font><a></span>
+    <span class="close" id="cls"><a href"#"><font color="#004">&times;</font><a></span>
 	<center>
     <p><a href="imprenditore.html"><img src="images/popup.png" width="90%"><a href="imprenditore.html"><br><font color="#004"><strong>CLICK TO VISIT</strong></font></a></p>
 	</center>
@@ -161,8 +162,8 @@ window.onclick = function(event) {
 </script>  
 
 
-<!-- <script src="vanta-master\vendor\three.r92.min.js"></script>
-<script src="vanta-master\dist\vanta.birds.min.js"></script> -->
+<!--<script src="vanta-master\vendor\three.r92.min.js"></script>
+<script src="vanta-master\dist\vanta.birds.min.js"></script>-->
 
 
     
@@ -178,7 +179,7 @@ window.onclick = function(event) {
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	          <!--<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>-->
 	          <!-- <li class="nav-item"><a href="domain.html" class="nav-link">Domain</a></li> -->
-	          <li class="nav-item"><a class="nav-link" href="sip.html">Estagio</a></li>
+	          <li class="nav-item"><a class="nav-link" href="sip.html">SIP</a></li>
 			  <li class="nav-item"><a class="nav-link" href="imprenditore.html">Imprenditore</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
@@ -286,17 +287,17 @@ function scrollWin(x, y) {
     <div style="position: relative;">
 
 
-    <!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
-      <script src="https://www.vantajs.com/dist/vanta.birds.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+      <script src="vanta-master/dist/vanta.net.min.js"></script>
 <div id="vantajs"></div>
 <script>
-VANTA.BIRDS({
+VANTA.NET({
   el: "#vantajs",
  backgroundColor: 0xffffff,
-  color1: 0xa29f9f,
-  color2: 0xc7087
+  color: 0x6927ff
+
 })
-</script> -->
+</script>
 
 
   
@@ -455,7 +456,7 @@ VANTA.BIRDS({
     			<div class="col-lg-6 py-5">
     				<img src="images/undraw_podcast_q6p7.svg" class="img-fluid" alt="">
     				<div class="heading-section ftco-animate mt-5">
-	            <h2 class="mb-4">Our Main Services</h2>
+	            <h2 class="mb-4">Register As</h2>
 	            <!-- <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country.</p> -->
 	          </div>
     			</div>
@@ -793,7 +794,6 @@ Imprenditore</p>
 		<a href="images/_79361403_771546666645984_401423407189793080_n.jpg" data-lightbox="gallery">
 			<img src="images/_79361403_771546666645984_401423407189793080_n.jpg" class="imggal"></a>
   </div>
-  <div class = "shadow"></div>
 </div>
 </div>
 </div>
@@ -872,13 +872,13 @@ Imprenditore</p>
     			<div class="col-lg-6 py-5">
     				<div class="row">
     					<div class="col-md-6 ftco-animate">
-    						<div class="media block-6 services border text-center" style="width:500px;">
+    						<div class="media block-6 services border text-center" style="max-width:500px;min-width:400px;">
 		            	<a href="registercompany.html" class="waves-effect"><button id="bbtn" ><font size="30">COMPANY</font></button></a>
 							</div>
     					</div>
 						<br>
     					<div class="col-md-8 ftco-animate">
-    						<div class="media block-6 services border text-center" style="width:500px;">
+    						<div class="media block-6 services border text-center" style="min-width:400px;max-width:500px;">
 						<a href="registerstudent.html" class="waves-effect"><button id="bbtn" ><font size="30">STUDENT</font></button></a>
 							</div>
     					</div>
@@ -943,7 +943,7 @@ Imprenditore</p>
     	<div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2>Our Partners from past</h2>
+            <h2>Our Partners</h2>
             <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p> -->
           </div>
         </div>
